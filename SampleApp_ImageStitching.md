@@ -1,0 +1,9 @@
+The Image Stitching (panorama) sample application demonstrates [how to perform automatic image stitching by interest point matching using Accord.NET and AForge.NET Frameworks](http://www.codeproject.com/Articles/95453/Automatic-Image-Stitching-with-Accord-NET).
+
+<br /><p align='center'>
+<img src='http://accord.googlecode.com/svn/wiki/samples/accord-imaging-panorama-img.jpg' />
+<br />Automatic Image Stitching using <a href='http://accord.googlecode.com/svn/docs/html/T_Accord_Imaging_HarrisCornersDetector.htm'>Harris Corners Detector</a>, <a href='http://accord.googlecode.com/svn/docs/html/T_Accord_MachineLearning_RANSAC_1.htm'>RANSAC</a>, <a href='http://accord.googlecode.com/svn/docs/html/T_Accord_Imaging_RansacHomographyEstimator.htm'>Homography estimation</a> and <a href='http://accord.googlecode.com/svn/docs/html/T_Accord_Imaging_Filters_Blend.htm'>Image Blending</a>.<br>
+</p><br />
+
+
+The actual stitching uses many parts of the Accord.NET Framework, such as the [Harris corners detector](http://accord.googlecode.com/svn/docs/html/T_Accord_Imaging_HarrisCornersDetector.htm), [RANSAC](http://accord.googlecode.com/svn/docs/html/T_Accord_MachineLearning_RANSAC_1.htm), [Homography estimation](http://accord.googlecode.com/svn/docs/html/T_Accord_Imaging_RansacHomographyEstimator.htm) and the [linear gradient image blending](http://accord.googlecode.com/svn/docs/html/T_Accord_Imaging_Filters_Blend.htm). For more details about the method, please be sure to read the [presenting article in CodeProject](http://www.codeproject.com/Articles/95453/Automatic-Image-Stitching-with-Accord-NET).
